@@ -1,0 +1,13 @@
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4f3f0;
+    color: #1a5c6d;
+    padding: 1rem;
+}
+
+.Navigation img {
+    width: 20%;  
+    height: auto;  
+}
