@@ -19,7 +19,7 @@ export function LoginForm() {
 
     if (isLoggedIn) {
       toast.success('Welcome again');
-      navigate("/rent"); 
+      navigate("/"); 
     } else {
       toast.error('Invalid credentials, please try again.');
     }

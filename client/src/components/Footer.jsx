@@ -8,7 +8,7 @@ export const Footer = () => {
       {/* Sección MORE INFO */}
       <div className='flex flex-col items-center md:items-center md:col-span-2'>
         <img src={logo} className='h-10 xl:h-16 mb-4' alt="Logo" />
-        <span className='font-semibold text-center md:text-left text-eco1'>
+        <span className='font-semibold text-center text-eco1'>
           Drive the Future, <span className='text-eco2'>Preserve the Earth. </span>
         </span>
       </div>

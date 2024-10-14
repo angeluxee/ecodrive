@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom"; // Importar useLocation
 import { getAllCars } from "../api/cars.api";
-import { CarCard } from "./CarCard";
+import { LongCarCard } from "./LongCarCard";
 
 export function CarList() {
   const location = useLocation();
@@ -14,7 +14,7 @@ export function CarList() {
       {formData.length > 0 ? (
         formData.map((car, index) => ( 
           <div key={index}>
-            <CarCard car={car} />
+            <LongCarCard car={car} />
           </div>
         ))
       ) : (
